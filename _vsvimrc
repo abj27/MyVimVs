@@ -1,0 +1,17 @@
+let mapleader = "\<Space>"
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>a :q<CR>
+nnoremap <Leader>ze :vsplit  C:\Users\Alberto\_vsvimrc<cr>
+nnoremap <Leader>zs :source C:\Users\Alberto\_vsvimrc<cr>
+
+"Resharper stuff
+nnoremap <Leader>p :vsc ReSharper.ReSharper_GotoFile<cr>
+nnoremap <Leader>P :vsc ReSharper.ReSharper_GotoType<cr>
+
+"Window stuff
+nnoremap <Leader>wf: vsc FullScreen<cr>
+nnoremap <Leader>wh :vsc Window.MovetoPreviousTabGroup<cr>
+nnoremap <Leader>wl :vsc Window.MovetoNextTabGroup<cr>
+nnoremap <Leader>wS :vsc Window.NewHorizontalTabGroup<cr>
+nnoremap <Leader>ws :vsc Window.NewVerticalTabGroup<cr>
