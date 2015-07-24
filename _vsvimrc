@@ -6,12 +6,20 @@ nnoremap <Leader>ze :vsplit  C:\Users\Alberto\_vsvimrc<cr>
 nnoremap <Leader>zs :source C:\Users\Alberto\_vsvimrc<cr>
 
 "Resharper stuff
-nnoremap <Leader>p :vsc ReSharper.ReSharper_GotoFile<cr>
-nnoremap <Leader>P :vsc ReSharper.ReSharper_GotoType<cr>
-
+nnoremap <Leader>p  :vsc ReSharper.ReSharper_GotoFile<cr>
+nnoremap <Leader>P  :vsc ReSharper.ReSharper_GotoType<cr>
+nnoremap <Leader>f  :vsc ReSharper_AltEnter<cr>
+nnoremap <Leader>rr :vsc ReSharper.ReSharper_Rename<cr>
+nnoremap <Leader>gi :vsc ReSharper.ReSharper_GotoImplementation<cr>
+nnoremap <Leader>gd :vsc ReSharper.ReSharper_GotoDefinition<cr>
+nnoremap <Leader>ge :vsc ReSharper.ReSharper_GotoNextErrorInSolution<cr>
+nnoremap <Leader>c :vsc ReSharper.ReSharper_LineComment<cr>
+nnoremap <Leader>R :vsc ReSharper.ReSharper_RefactorThis<cr>
 "Window stuff
-nnoremap <Leader>wf: vsc FullScreen<cr>
+nnoremap <Leader>wf :vsc View.FullScreen<cr>
 nnoremap <Leader>wh :vsc Window.MovetoPreviousTabGroup<cr>
 nnoremap <Leader>wl :vsc Window.MovetoNextTabGroup<cr>
-nnoremap <Leader>wS :vsc Window.NewHorizontalTabGroup<cr>
-nnoremap <Leader>ws :vsc Window.NewVerticalTabGroup<cr>
+nnoremap <Leader>nh :vsc Window.NewHorizontalTabGroup<cr>
+nnoremap <Leader>nv :vsc Window.NewVerticalTabGroup<cr>
+nnoremap <Leader>h  :vsc View.NavigateBackward<cr>
+nnoremap <Leader>l  :vsc View.NavigateForward<cr>
