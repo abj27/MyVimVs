@@ -15,11 +15,24 @@ nnoremap <Leader>gd :vsc ReSharper.ReSharper_GotoDefinition<cr>
 nnoremap <Leader>ge :vsc ReSharper.ReSharper_GotoNextErrorInSolution<cr>
 nnoremap <Leader>c :vsc ReSharper.ReSharper_LineComment<cr>
 nnoremap <Leader>R :vsc ReSharper.ReSharper_RefactorThis<cr>
+nnoremap <Leader>ri :vsc ReSharper_EnableDaemon<cr>
+
+"Tab group jumper
+nnoremap <Leader>h :vsc TabGroupJumper.Connect.JumpLeft<cr>
+nnoremap <Leader>l :vsc TabGroupJumper.Connect.JumpRight<cr>
+nnoremap <Leader>j :vsc TabGroupJumper.Connect.JumpDown<cr>
+nnoremap <Leader>k :vsc TabGroupJumper.Connect.JumpUp<cr>
+
 "Window stuff
 nnoremap <Leader>wf :vsc View.FullScreen<cr>
 nnoremap <Leader>wh :vsc Window.MovetoPreviousTabGroup<cr>
 nnoremap <Leader>wl :vsc Window.MovetoNextTabGroup<cr>
 nnoremap <Leader>nh :vsc Window.NewHorizontalTabGroup<cr>
 nnoremap <Leader>nv :vsc Window.NewVerticalTabGroup<cr>
-nnoremap <Leader>h  :vsc View.NavigateBackward<cr>
-nnoremap <Leader>l  :vsc View.NavigateForward<cr>
+nnoremap <Leader>b  :vsc View.NavigateBackward<cr>
+nnoremap <Leader>f  :vsc View.NavigateForward<cr>
+
+"Buid stuff
+nnoremap <Leader>B :vsc Build.BuildSolution<cr>
+nnoremap <Leader>Br :vsc Build.RebuildOnlyProject<cr>
+nnoremap <Leader>BR :vsc Build.CleanSoultion<cr> Build.RebuildSolution<cr>
