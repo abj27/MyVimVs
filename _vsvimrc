@@ -36,3 +36,7 @@ nnoremap <Leader>f  :vsc View.NavigateForward<cr>
 nnoremap <Leader>B :vsc Build.BuildSolution<cr>
 nnoremap <Leader>Br :vsc Build.RebuildOnlyProject<cr>
 nnoremap <Leader>BR :vsc Build.CleanSoultion<cr> Build.RebuildSolution<cr>
+
+"Visual studio info stuff
+
+nnoremap <Leader>t :vsc Edit.QuickInfo<cr>
