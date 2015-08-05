@@ -9,10 +9,10 @@ nnoremap <Leader>zs :source C:\Users\Alberto\_vsvimrc<cr>
 nnoremap <Leader>p  :vsc ReSharper.ReSharper_GotoFile<cr>
 nnoremap <Leader>P  :vsc ReSharper.ReSharper_GotoType<cr>
 nnoremap <Leader>f  :vsc ReSharper_AltEnter<cr>
-nnoremap <Leader>rr :vsc ReSharper.ReSharper_Rename<cr>
-nnoremap <Leader>gi :vsc ReSharper.ReSharper_GotoImplementation<cr>
-nnoremap <Leader>gd :vsc ReSharper.ReSharper_GotoDefinition<cr>
-nnoremap <Leader>ge :vsc ReSharper.ReSharper_GotoNextErrorInSolution<cr>
+nnoremap <Leader>r :vsc ReSharper.ReSharper_Rename<cr>
+nnoremap <Leader>i :vsc ReSharper.ReSharper_GotoImplementation<cr>
+nnoremap <Leader>d :vsc ReSharper.ReSharper_GotoDefinition<cr>
+nnoremap <Leader>e :vsc ReSharper.ReSharper_GotoNextErrorInSolution<cr>
 nnoremap <Leader>c :vsc ReSharper.ReSharper_LineComment<cr>
 nnoremap <Leader>R :vsc ReSharper.ReSharper_RefactorThis<cr>
 nnoremap <Leader>ri :vsc ReSharper_EnableDaemon<cr>
@@ -24,13 +24,7 @@ nnoremap <Leader>j :vsc TabGroupJumper.Connect.JumpDown<cr>
 nnoremap <Leader>k :vsc TabGroupJumper.Connect.JumpUp<cr>
 
 "Window stuff
-nnoremap <Leader>wf :vsc View.FullScreen<cr>
-nnoremap <Leader>wh :vsc Window.MovetoPreviousTabGroup<cr>
-nnoremap <Leader>wl :vsc Window.MovetoNextTabGroup<cr>
-nnoremap <Leader>nh :vsc Window.NewHorizontalTabGroup<cr>
-nnoremap <Leader>nv :vsc Window.NewVerticalTabGroup<cr>
-nnoremap <Leader>b  :vsc View.NavigateBackward<cr>
-nnoremap <Leader>f  :vsc View.NavigateForward<cr>
+nnoremap <Leader>f :vsc View.FullScreen<cr>
 
 "Buid stuff
 nnoremap <Leader>B :vsc Build.BuildSolution<cr>
