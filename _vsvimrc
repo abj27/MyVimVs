@@ -6,9 +6,9 @@ nnoremap <Leader>ze :vsplit  C:\Users\Alberto\_vsvimrc<cr>
 nnoremap <Leader>zs :source C:\Users\Alberto\_vsvimrc<cr>
 
 "Resharper stuff
-nnoremap <Leader>p  :vsc ReSharper.ReSharper_GotoFile<cr>
-nnoremap <Leader>P  :vsc ReSharper.ReSharper_GotoType<cr>
-nnoremap <Leader>f  :vsc ReSharper_AltEnter<cr>
+nnoremap <Leader>p :vsc ReSharper.ReSharper_GotoFile<cr>
+nnoremap <Leader>P :vsc ReSharper.ReSharper_GotoType<cr>
+nnoremap <Leader>f :vsc ReSharper_AltEnter<cr>
 nnoremap <Leader>r :vsc ReSharper.ReSharper_Rename<cr>
 nnoremap <Leader>i :vsc ReSharper.ReSharper_GotoImplementation<cr>
 nnoremap <Leader>d :vsc ReSharper.ReSharper_GotoDefinition<cr>
@@ -25,6 +25,8 @@ nnoremap <Leader>k :vsc TabGroupJumper.Connect.JumpUp<cr>
 
 "Window stuff
 nnoremap <Leader>f :vsc View.FullScreen<cr>
+nnoremap <Leader>k :vsc View.NavigateForward<cr>
+nnoremap <Leader>j :vsc View.NavigateBackward<cr>
 
 "Buid stuff
 nnoremap <Leader>B :vsc Build.BuildSolution<cr>
